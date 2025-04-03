@@ -1,18 +1,28 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
 header {
-    padding: 25px;
-    background-color: #1d3d7d;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 50px;
+    background-color: #1d3d7d;
 }
 
 header h1 {
+    margin: 0;
     color: #ffffff;
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,28 +31,114 @@ header h1 {
     font-style: italic;
 }
 
-header ul {
+header nav ul {
     display: flex;
-    justify-content: center;
     gap: 20px;
-    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
     color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header nav ul li a:hover {
+    color: #ACD6EF;
+    transition: 0.8s;
 }
 
 
 .primeira {
-    padding: 219px;
-    background-image: url(Imagens/pexels-jvdm-1457842.jpg);
+    padding: 160px;
+    background-image: url(Imagens/pexels-kamo11235-667838.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
 }
 
-.primeira p {
-    text-align: right; 
-    padding: 1px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+.primeira-texto {
+    max-width: 500px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: #0000003d;
+    border-radius: 5px;
+
 }
 
+.primeira h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.primeira p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ACD6EF;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px black;
+}
+
+.botao:hover {
+    background-color: #1d3d7d;
+    color: #fff;
+}
+
+.segunda {
+    padding: 220px;
+    background-image: url(Imagens/pexels-scottwebb-305821.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.segunda-texto {
+    max-width: 500px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.segunda h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.segunda p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.botao2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #245218;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px black;
+}
+
+.botao2:hover {
+    background-color: #5ea84b;
+    color: black;
+}
