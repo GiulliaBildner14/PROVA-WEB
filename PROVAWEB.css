@@ -61,6 +61,11 @@ header nav ul li a:hover {
     display: flex;
 }
 
+.primeira span {
+    font-weight: bolder;
+    color: #ACD6EF;
+}
+
 .primeira-texto {
     max-width: 500px;
     color: #ffffff;
@@ -68,7 +73,6 @@ header nav ul li a:hover {
     padding: 20px;
     background-color: #0000003d;
     border-radius: 5px;
-
 }
 
 .primeira h2 {
