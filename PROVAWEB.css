@@ -142,3 +142,19 @@ header nav ul li a:hover {
     background-color: #5ea84b;
     color: black;
 }
+
+footer p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #1d3d7d;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
